@@ -7,3 +7,5 @@ Google Colaboratory で実施
 3章 https://colab.research.google.com/drive/1lJ3qKsB92ZY0bDChgaBUUQA8XWd--f4i?usp=sharing  
 4章 https://colab.research.google.com/drive/1EPqxEePXMZjRMw5eP67QLmvVkI_oGTNY?usp=sharing  
 5章 https://colab.research.google.com/drive/1r9tF2PnytZLVg8IRVXpcn2VvvFfHDh_H?usp=sharing  
+6章 https://colab.research.google.com/drive/1JEliYZ7tTVP6YHe3WtZuZzUSP5UvZGOx?usp=sharing  
+7章
