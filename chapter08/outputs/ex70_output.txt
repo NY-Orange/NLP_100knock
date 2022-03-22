@@ -1,0 +1,23 @@
+【学習データ】
+b    4502
+e    4223
+t    1219
+m     728
+Name: CATEGORY, dtype: int64
+単語ベクトルの次元数： 300
+                                                    TITLE CATEGORY
+281774  US Treasury 5-Year Notes Extend Longest Drop T...        b
+419089  You Don't Have to Be an Evil Hacker Genius to ...        t
+166369  GE reports 'productive' meeting with France's ...        b
+146433  Netflix Comes Out Against The Comcast-Time War...        b
+142790  A Way of Life at Risk on the Anniversary of th...        b
+X_train_size :  torch.Size([10672, 300])
+X_train :
+ tensor([[-0.1007, -0.0405, -0.0071,  ...,  0.0620, -0.0037, -0.0348],
+        [ 0.0483,  0.1105, -0.0174,  ..., -0.2153, -0.0234,  0.0199],
+        [-0.0696,  0.1192, -0.0609,  ..., -0.0345,  0.1191,  0.0326],
+        [ 0.0666,  0.1491, -0.0732,  ...,  0.0159,  0.1034, -0.0053],
+        [-0.0237,  0.0565, -0.0710,  ...,  0.0705,  0.0281, -0.0089]])
+y_train_size :  torch.Size([10672])
+y_train :
+ tensor([0, 2, 0,  ..., 1, 0, 1])
