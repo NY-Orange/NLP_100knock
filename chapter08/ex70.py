@@ -12,10 +12,6 @@ def preprocess_dataset():
     train, valid_test = train_test_split(df.loc[:,["TITLE", "CATEGORY"]], test_size=0.2, shuffle=True, stratify=df["CATEGORY"])
     valid, test = train_test_split(valid_test, test_size=0.5, shuffle=True, stratify=valid_test["CATEGORY"])
 
-    train.to_csv("./data/train.txt", sep="\t", index=False)
-    valid.to_csv("./data/valid.txt", sep="\t", index=False)
-    test.to_csv("./data/test.txt", sep="\t", index=False)
-    
     print('【学習データ】')
     print(train['CATEGORY'].value_counts())
 
