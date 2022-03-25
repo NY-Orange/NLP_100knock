@@ -6,7 +6,7 @@ from gensim.models import KeyedVectors
 
 # 問題50と同じ
 def preprocess_dataset():
-    df = pd.read_csv("./datasets/NewsAggregatorDataset/newsCorpora.csv", sep="\t", header=None, names=["ID", "TITLE", "URL", "PUBLISHER", "CATEGORY", "STORY", "HOSTNAME", "TIMESTAMP"])
+    df = pd.read_csv("./datasets/NewsAggregatorDataset/newsCorpora_re.csv", sep="\t", header=None, names=["ID", "TITLE", "URL", "PUBLISHER", "CATEGORY", "STORY", "HOSTNAME", "TIMESTAMP"])
     df = df.loc[df["PUBLISHER"].isin(["Reuters", "Huffington Post", "Businessweek", "Contactmusic.com", "Daily Mail"]), :]
 
     train, valid_test = train_test_split(df.loc[:,["TITLE", "CATEGORY"]], test_size=0.2, shuffle=True, stratify=df["CATEGORY"])

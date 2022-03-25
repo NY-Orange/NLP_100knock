@@ -1,17 +1,17 @@
-epoch: 1	loss_train: 0.468	loss_valid: 0.334
-epoch: 2	loss_train: 0.318	loss_valid: 0.302
-epoch: 3	loss_train: 0.288	loss_valid: 0.293
-epoch: 4	loss_train: 0.273	loss_valid: 0.286
-epoch: 5	loss_train: 0.264	loss_valid: 0.280
-epoch: 6	loss_train: 0.256	loss_valid: 0.281
-epoch: 7	loss_train: 0.250	loss_valid: 0.289
-epoch: 8	loss_train: 0.246	loss_valid: 0.276
-epoch: 9	loss_train: 0.242	loss_valid: 0.282
-epoch: 10	loss_train: 0.239	loss_valid: 0.277
+epoch: 1	loss_train: 0.487	loss_valid: 0.343
+epoch: 2	loss_train: 0.321	loss_valid: 0.297
+epoch: 3	loss_train: 0.290	loss_valid: 0.277
+epoch: 4	loss_train: 0.275	loss_valid: 0.271
+epoch: 5	loss_train: 0.265	loss_valid: 0.267
+epoch: 6	loss_train: 0.257	loss_valid: 0.264
+epoch: 7	loss_train: 0.252	loss_valid: 0.265
+epoch: 8	loss_train: 0.247	loss_valid: 0.261
+epoch: 9	loss_train: 0.244	loss_valid: 0.257
+epoch: 10	loss_train: 0.242	loss_valid: 0.259
 学習された重み行列
 Parameter containing:
-tensor([[-1.9098,  1.3112,  0.1553,  ..., -0.3228,  1.8693, -2.0215],
-        [-0.0239,  0.6793, -3.5952,  ..., -0.9844, -0.0437,  0.5189],
-        [ 0.3290,  1.0502,  0.6215,  ..., -0.1556, -0.0961, -1.7561],
-        [-0.8022,  0.0314, -0.8293,  ...,  0.0065,  1.1273,  0.6157]],
+tensor([[-0.8611,  0.0238,  1.2509,  ..., -0.1168,  1.3678,  0.0198],
+        [ 0.2517,  0.6798, -0.8833,  ..., -0.2269, -0.8198,  1.5352],
+        [ 0.1258,  0.5215,  1.2043,  ...,  0.2088, -1.9889, -0.7806],
+        [-1.3674, -1.7564,  1.1102,  ...,  0.9571, -0.3797,  3.3224]],
        requires_grad=True)

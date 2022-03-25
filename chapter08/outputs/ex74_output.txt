@@ -1,12 +1,12 @@
-epoch: 1	loss_train: 0.456	loss_valid: 0.343
-epoch: 2	loss_train: 0.315	loss_valid: 0.305
-epoch: 3	loss_train: 0.286	loss_valid: 0.293
-epoch: 4	loss_train: 0.271	loss_valid: 0.288
-epoch: 5	loss_train: 0.261	loss_valid: 0.283
-epoch: 6	loss_train: 0.253	loss_valid: 0.283
-epoch: 7	loss_train: 0.248	loss_valid: 0.279
-epoch: 8	loss_train: 0.244	loss_valid: 0.287
-epoch: 9	loss_train: 0.241	loss_valid: 0.279
-epoch: 10	loss_train: 0.239	loss_valid: 0.278
-正解率（訓練データ）：0.922
-正解率（評価データ）：0.913
+epoch: 1	loss_train: 0.474	loss_valid: 0.337
+epoch: 2	loss_train: 0.326	loss_valid: 0.299
+epoch: 3	loss_train: 0.295	loss_valid: 0.281
+epoch: 4	loss_train: 0.277	loss_valid: 0.273
+epoch: 5	loss_train: 0.267	loss_valid: 0.271
+epoch: 6	loss_train: 0.260	loss_valid: 0.263
+epoch: 7	loss_train: 0.254	loss_valid: 0.262
+epoch: 8	loss_train: 0.249	loss_valid: 0.260
+epoch: 9	loss_train: 0.245	loss_valid: 0.260
+epoch: 10	loss_train: 0.243	loss_valid: 0.261
+正解率（訓練データ）：0.923
+正解率（評価データ）：0.910

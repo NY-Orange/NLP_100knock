@@ -1,22 +1,22 @@
 バッチサイズ：1
-epoch: 1	loss(train): 0.342	accuracy(train): 0.882	loss(valid): 0.351	accuracy(valid): 0.877	time: 14.515sec
+epoch: 1	loss(train): 0.343	accuracy(train): 0.884	loss(valid): 0.345	accuracy(valid): 0.872	time: 13.602sec
 バッチサイズ：2
-epoch: 1	loss(train): 0.310	accuracy(train): 0.893	loss(valid): 0.325	accuracy(valid): 0.888	time: 7.035sec
+epoch: 1	loss(train): 0.314	accuracy(train): 0.891	loss(valid): 0.319	accuracy(valid): 0.882	time: 6.958sec
 バッチサイズ：4
-epoch: 1	loss(train): 0.301	accuracy(train): 0.895	loss(valid): 0.316	accuracy(valid): 0.890	time: 3.640sec
+epoch: 1	loss(train): 0.302	accuracy(train): 0.897	loss(valid): 0.309	accuracy(valid): 0.886	time: 3.597sec
 バッチサイズ：8
-epoch: 1	loss(train): 0.297	accuracy(train): 0.898	loss(valid): 0.313	accuracy(valid): 0.891	time: 1.938sec
+epoch: 1	loss(train): 0.298	accuracy(train): 0.898	loss(valid): 0.306	accuracy(valid): 0.885	time: 1.940sec
 バッチサイズ：16
-epoch: 1	loss(train): 0.295	accuracy(train): 0.898	loss(valid): 0.311	accuracy(valid): 0.893	time: 1.058sec
+epoch: 1	loss(train): 0.296	accuracy(train): 0.899	loss(valid): 0.305	accuracy(valid): 0.886	time: 1.021sec
 バッチサイズ：32
-epoch: 1	loss(train): 0.294	accuracy(train): 0.898	loss(valid): 0.311	accuracy(valid): 0.891	time: 0.613sec
+epoch: 1	loss(train): 0.295	accuracy(train): 0.899	loss(valid): 0.304	accuracy(valid): 0.887	time: 0.604sec
 バッチサイズ：64
-epoch: 1	loss(train): 0.293	accuracy(train): 0.898	loss(valid): 0.311	accuracy(valid): 0.894	time: 0.396sec
+epoch: 1	loss(train): 0.295	accuracy(train): 0.899	loss(valid): 0.304	accuracy(valid): 0.887	time: 0.390sec
 バッチサイズ：128
-epoch: 1	loss(train): 0.293	accuracy(train): 0.899	loss(valid): 0.310	accuracy(valid): 0.894	time: 0.270sec
+epoch: 1	loss(train): 0.294	accuracy(train): 0.900	loss(valid): 0.303	accuracy(valid): 0.887	time: 0.271sec
 バッチサイズ：256
-epoch: 1	loss(train): 0.293	accuracy(train): 0.899	loss(valid): 0.310	accuracy(valid): 0.894	time: 0.240sec
+epoch: 1	loss(train): 0.294	accuracy(train): 0.900	loss(valid): 0.303	accuracy(valid): 0.887	time: 0.236sec
 バッチサイズ：512
-epoch: 1	loss(train): 0.293	accuracy(train): 0.899	loss(valid): 0.310	accuracy(valid): 0.894	time: 0.172sec
+epoch: 1	loss(train): 0.294	accuracy(train): 0.900	loss(valid): 0.303	accuracy(valid): 0.887	time: 0.172sec
 バッチサイズ：1024
-epoch: 1	loss(train): 0.295	accuracy(train): 0.899	loss(valid): 0.310	accuracy(valid): 0.894	time: 0.137sec
+epoch: 1	loss(train): 0.293	accuracy(train): 0.900	loss(valid): 0.303	accuracy(valid): 0.887	time: 0.158sec
