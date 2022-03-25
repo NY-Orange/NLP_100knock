@@ -61,8 +61,7 @@ def main():
         ax[i].set_ylabel(ylabel)
         ax[i].legend()
     
-    fig.savefig("ex75_calculation_loss_and_accuracy.png")
-    plt.show()
+    fig.savefig("./outputs/ex75_calculation_loss_and_accuracy.png")
 
 
 

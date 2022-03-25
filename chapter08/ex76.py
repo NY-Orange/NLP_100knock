@@ -30,7 +30,7 @@ def main():
         loss_train, acc_train = calculate_loss_and_acc(model, criterion, DataLoader_train)
         loss_valid, acc_valid = calculate_loss_and_acc(model, criterion, DataLoader_valid)
 
-        torch.save({"epoch": epoch, "model_state_dict": model.state_dict(), "optimizer_state_dict": optimizer.state_dict()}, "./ex76_checkpoints/checkpoint{}.pt".format(epoch+1))
+        torch.save({"epoch": epoch, "model_state_dict": model.state_dict(), "optimizer_state_dict": optimizer.state_dict()}, "./outputs/ex76_checkpoints/checkpoint{}.pt".format(epoch+1))
 
         print("epoch: {}\tloss(train): {:.3f}\taccuracy(train): {:.3f}\tloss(valid): {:.3f}\taccuracy(valid): {:.3f}".format(epoch+1, loss_train, acc_train, loss_valid, acc_valid))
 
