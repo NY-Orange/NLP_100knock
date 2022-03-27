@@ -88,12 +88,13 @@ def main():
     DROP_RATE = trial.params["drop_rate"]
     LEARNING_RATE = trial.params["learning_rate"]
     BATCH_SIZE = int(trial.params["batch_size"])
+    MOMENTUM = trial.params["momentum"]
 
     model = textCNN(VOCAB_SIZE, EMB_SIZE, PADDING_IDX, OUTPUT_SIZE, OUT_CHANNELS, CONV_PARAMS, DROP_RATE, emb_weights=weights)
     print(model)
 
     criterion = nn.CrossEntropyLoss()
-    optimizer = torch.optim.SGD(model.parameters(), lr=LEARNING_RATE, momentum=0.9)
+    optimizer = torch.optim.SGD(model.parameters(), lr=LEARNING_RATE, momentum=MOMENTUM)
     device = torch.device("cuda")
 
     log = train_model(dataset_train, dataset_valid, BATCH_SIZE, model, criterion, optimizer, MAX_EPOCH, collate_fn=Padsequence(PADDING_IDX), device=device)

@@ -63,8 +63,11 @@ def main():
     y_train = train["CATEGORY"].map(lambda x: category_dict[x]).values
     dataset_train = CreateNewsDataset(train["TITLE"], y_train, text2id, word2id_dict)
 
-    print("len(Dataset) の出力：{}".format(len(dataset_train)))
-    print("Dataset[index] の出力：")
+    print("len(dataset_train) の出力：{}".format(len(dataset_train)))
+    print("dataset_train[index] の出力：")
+
+    for var in dataset_train[1]:
+        print("{}: {}".format(var, dataset_train[1][var]))
  
     # 辞書のID数 + パディングID
     VOCAB_SIZE = len(set(word2id_dict.values())) + 1

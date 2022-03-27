@@ -56,7 +56,7 @@ class BertClassifier(nn.Module):
         out = self.fc(out)
         return out
 
-def claculate_loss_and_acc(model, criterion, dataloader, device):
+def calculate_loss_and_acc(model, criterion, dataloader, device):
     model.eval()
     loss = 0.0
     total_num = 0
@@ -101,8 +101,8 @@ def train_model(dataset_train, dataset_valid, batch_size, model, criterion, opti
             loss.backward()
             optimizer.step()
         
-        loss_train, acc_train = claculate_loss_and_acc(model, criterion, dataloader_train, device)
-        loss_valid, acc_valid = claculate_loss_and_acc(model, criterion, dataloader_valid, device)
+        loss_train, acc_train = calculate_loss_and_acc(model, criterion, dataloader_train, device)
+        loss_valid, acc_valid = calculate_loss_and_acc(model, criterion, dataloader_valid, device)
         log_train.append([loss_train, acc_train])
         log_valid.append([loss_valid, acc_valid])
 
