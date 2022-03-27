@@ -1,0 +1,14 @@
+学習済みベクトル利用単語数：9218 / 9451
+torch.Size([9451, 300])
+epoch: 1	loss(train): 1.115	accuracy(train): 0.508	loss(valid): 1.125	accuracy(valid): 0.495	10.064sec
+epoch: 2	loss(train): 1.050	accuracy(train): 0.631	loss(valid): 1.075	accuracy(valid): 0.579	10.069sec
+epoch: 3	loss(train): 0.965	accuracy(train): 0.673	loss(valid): 1.003	accuracy(valid): 0.635	10.231sec
+epoch: 4	loss(train): 0.889	accuracy(train): 0.700	loss(valid): 0.935	accuracy(valid): 0.652	9.948sec
+epoch: 5	loss(train): 0.838	accuracy(train): 0.719	loss(valid): 0.890	accuracy(valid): 0.678	9.814sec
+epoch: 6	loss(train): 0.799	accuracy(train): 0.730	loss(valid): 0.858	accuracy(valid): 0.684	10.513sec
+epoch: 7	loss(train): 0.773	accuracy(train): 0.737	loss(valid): 0.840	accuracy(valid): 0.689	10.074sec
+epoch: 8	loss(train): 0.759	accuracy(train): 0.741	loss(valid): 0.832	accuracy(valid): 0.693	10.633sec
+epoch: 9	loss(train): 0.753	accuracy(train): 0.743	loss(valid): 0.828	accuracy(valid): 0.696	10.013sec
+epoch: 10	loss(train): 0.751	accuracy(train): 0.744	loss(valid): 0.825	accuracy(valid): 0.695	9.860sec
+正解率（学習データ）：0.744
+正解率（評価データ）：0.718
