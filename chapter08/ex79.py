@@ -100,7 +100,57 @@ def main():
     print("best _accuracy(valid) : {:.3f}".format(trial.value))
     print("best_parameters : {}".format(trial.params))
 
+    word_vec_dim = 300
+    label_num = 4
+    mid_size = 200
+    mid_layers = 1
+    dropout_rate = 0.2
+    batch_size = 64
 
+    Dataset_train, Dataset_valid, Dataset_test = make_datasets()
+
+    # DataLoaderの作成（ミニバッチ化）
+    DataLoader_train = DataLoader(Dataset_train, batch_size=batch_size, shuffle=True)
+    DataLoader_valid = DataLoader(Dataset_valid, batch_size=len(Dataset_valid), shuffle=False)
+    DataLoader_test = DataLoader(Dataset_test, batch_size=len(Dataset_test), shuffle=False)
+
+    device = torch.device("cuda")
+    criterion = nn.CrossEntropyLoss()
+
+    model = MLPNet(word_vec_dim, mid_size, label_num, mid_layers, dropout_rate).to(device)
+    optimizer = getattr(torch.optim, trial.params["optimizer"])(model.parameters(), trial.params["learning_rate"])
+
+    max_epoch = 300
+    model.train()
+    for epoch in range(max_epoch):
+        for inputs, labels in DataLoader_train:
+            inputs = inputs.to(device)
+            labels = labels.to(device)
+
+            optimizer.zero_grad()
+            outputs = model.forward(inputs)
+            loss = criterion(outputs, labels)
+            loss.backward()
+            optimizer.step()
+
+    loss_train, acc_train = calculate_loss_and_acc_with_gpu(model, criterion, DataLoader_train, device)
+    loss_valid, acc_valid = calculate_loss_and_acc_with_gpu(model, criterion, DataLoader_valid, device)
+
+    print("loss(train): {:.3f}\taccuracy(train): {:.3f}\tloss(valid): {:.3f}\taccuracy(valid): {:.3f}".format(loss_train, acc_train, loss_valid, acc_valid))
+
+    total_num = 0
+    correct_num = 0
+    model.eval()
+    with torch.no_grad():
+        for inputs, labels in DataLoader_test:
+            inputs = inputs.to(device)
+            labels = labels.to(device)
+            outputs = model(inputs)
+            pred = torch.argmax(outputs, dim=-1)
+            total_num += len(inputs)
+            correct_num += (pred==labels).sum().item()
+    
+    print(" --- accuracy(test) --- : {:.3f}".format(correct_num/total_num))
 
 if __name__ == "__main__":
     main()
