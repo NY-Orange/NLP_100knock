@@ -1,0 +1,113 @@
+[32m[I 2022-03-28 04:36:58,831][0m A new study created in memory with name: no-name-87da9e9d-eb58-465c-bad1-ae3e07d8f5fa[0m
+[32m[I 2022-03-28 04:43:31,747][0m Trial 0 finished with value: 0.5290070492324729 and parameters: {'out_channels': 100.0, 'drop_rate': 0.1, 'learning_rate': 0.008726452156684139, 'momentum': 0.8, 'batch_size': 64.0}. Best is trial 0 with value: 0.5290070492324729.[0m
+[32m[I 2022-03-28 04:49:54,058][0m Trial 1 finished with value: 0.4080604524167101 and parameters: {'out_channels': 100.0, 'drop_rate': 0.2, 'learning_rate': 0.016755161323081177, 'momentum': 0.8, 'batch_size': 48.0}. Best is trial 1 with value: 0.4080604524167101.[0m
+学習済みベクトル利用単語数：9237 / 9467
+torch.Size([9467, 300])
+epoch: 1	loss(train): 1.113	accuracy(train): 0.503	loss(valid): 1.104	accuracy(valid): 0.534	12.995sec
+epoch: 2	loss(train): 1.046	accuracy(train): 0.615	loss(valid): 1.044	accuracy(valid): 0.606	12.625sec
+epoch: 3	loss(train): 0.948	accuracy(train): 0.672	loss(valid): 0.953	accuracy(valid): 0.661	12.963sec
+epoch: 4	loss(train): 0.865	accuracy(train): 0.704	loss(valid): 0.894	accuracy(valid): 0.678	12.690sec
+epoch: 5	loss(train): 0.796	accuracy(train): 0.724	loss(valid): 0.838	accuracy(valid): 0.697	13.043sec
+epoch: 6	loss(train): 0.737	accuracy(train): 0.745	loss(valid): 0.791	accuracy(valid): 0.710	13.309sec
+epoch: 7	loss(train): 0.685	accuracy(train): 0.758	loss(valid): 0.745	accuracy(valid): 0.722	12.693sec
+epoch: 8	loss(train): 0.636	accuracy(train): 0.778	loss(valid): 0.719	accuracy(valid): 0.733	13.060sec
+epoch: 9	loss(train): 0.595	accuracy(train): 0.788	loss(valid): 0.688	accuracy(valid): 0.751	13.257sec
+epoch: 10	loss(train): 0.556	accuracy(train): 0.807	loss(valid): 0.664	accuracy(valid): 0.763	12.832sec
+epoch: 11	loss(train): 0.522	accuracy(train): 0.820	loss(valid): 0.647	accuracy(valid): 0.767	12.783sec
+epoch: 12	loss(train): 0.491	accuracy(train): 0.841	loss(valid): 0.625	accuracy(valid): 0.778	12.851sec
+epoch: 13	loss(train): 0.464	accuracy(train): 0.839	loss(valid): 0.610	accuracy(valid): 0.775	12.596sec
+epoch: 14	loss(train): 0.440	accuracy(train): 0.857	loss(valid): 0.592	accuracy(valid): 0.790	13.441sec
+epoch: 15	loss(train): 0.419	accuracy(train): 0.868	loss(valid): 0.584	accuracy(valid): 0.793	13.144sec
+epoch: 16	loss(train): 0.402	accuracy(train): 0.864	loss(valid): 0.573	accuracy(valid): 0.788	13.308sec
+epoch: 17	loss(train): 0.385	accuracy(train): 0.885	loss(valid): 0.563	accuracy(valid): 0.800	12.866sec
+epoch: 18	loss(train): 0.372	accuracy(train): 0.888	loss(valid): 0.554	accuracy(valid): 0.805	13.170sec
+epoch: 19	loss(train): 0.361	accuracy(train): 0.896	loss(valid): 0.549	accuracy(valid): 0.815	13.319sec
+epoch: 20	loss(train): 0.353	accuracy(train): 0.887	loss(valid): 0.545	accuracy(valid): 0.805	13.053sec
+epoch: 21	loss(train): 0.343	accuracy(train): 0.899	loss(valid): 0.542	accuracy(valid): 0.811	12.767sec
+epoch: 22	loss(train): 0.337	accuracy(train): 0.898	loss(valid): 0.539	accuracy(valid): 0.808	12.682sec
+epoch: 23	loss(train): 0.332	accuracy(train): 0.902	loss(valid): 0.534	accuracy(valid): 0.812	12.632sec
+epoch: 24	loss(train): 0.328	accuracy(train): 0.906	loss(valid): 0.535	accuracy(valid): 0.812	13.200sec
+epoch: 25	loss(train): 0.325	accuracy(train): 0.905	loss(valid): 0.531	accuracy(valid): 0.815	13.038sec
+epoch: 26	loss(train): 0.323	accuracy(train): 0.906	loss(valid): 0.530	accuracy(valid): 0.816	13.059sec
+epoch: 27	loss(train): 0.322	accuracy(train): 0.907	loss(valid): 0.529	accuracy(valid): 0.815	13.130sec
+epoch: 28	loss(train): 0.321	accuracy(train): 0.908	loss(valid): 0.529	accuracy(valid): 0.815	12.640sec
+epoch: 29	loss(train): 0.321	accuracy(train): 0.909	loss(valid): 0.529	accuracy(valid): 0.816	13.325sec
+epoch: 30	loss(train): 0.321	accuracy(train): 0.909	loss(valid): 0.529	accuracy(valid): 0.815	13.009sec
+epoch: 1	loss(train): 0.993	accuracy(train): 0.645	loss(valid): 0.991	accuracy(valid): 0.649	13.383sec
+epoch: 2	loss(train): 0.798	accuracy(train): 0.724	loss(valid): 0.832	accuracy(valid): 0.691	13.537sec
+epoch: 3	loss(train): 0.672	accuracy(train): 0.759	loss(valid): 0.743	accuracy(valid): 0.718	13.099sec
+epoch: 4	loss(train): 0.553	accuracy(train): 0.808	loss(valid): 0.666	accuracy(valid): 0.757	12.688sec
+epoch: 5	loss(train): 0.454	accuracy(train): 0.839	loss(valid): 0.597	accuracy(valid): 0.787	13.316sec
+epoch: 6	loss(train): 0.375	accuracy(train): 0.869	loss(valid): 0.552	accuracy(valid): 0.800	13.116sec
+epoch: 7	loss(train): 0.307	accuracy(train): 0.915	loss(valid): 0.521	accuracy(valid): 0.817	13.172sec
+epoch: 8	loss(train): 0.256	accuracy(train): 0.931	loss(valid): 0.497	accuracy(valid): 0.821	13.059sec
+epoch: 9	loss(train): 0.211	accuracy(train): 0.957	loss(valid): 0.477	accuracy(valid): 0.832	13.290sec
+epoch: 10	loss(train): 0.180	accuracy(train): 0.976	loss(valid): 0.469	accuracy(valid): 0.831	13.613sec
+epoch: 11	loss(train): 0.148	accuracy(train): 0.982	loss(valid): 0.448	accuracy(valid): 0.846	12.860sec
+epoch: 12	loss(train): 0.131	accuracy(train): 0.989	loss(valid): 0.442	accuracy(valid): 0.850	12.982sec
+epoch: 13	loss(train): 0.111	accuracy(train): 0.990	loss(valid): 0.438	accuracy(valid): 0.839	12.993sec
+epoch: 14	loss(train): 0.097	accuracy(train): 0.993	loss(valid): 0.426	accuracy(valid): 0.840	12.923sec
+epoch: 15	loss(train): 0.087	accuracy(train): 0.997	loss(valid): 0.424	accuracy(valid): 0.847	13.125sec
+epoch: 16	loss(train): 0.079	accuracy(train): 0.997	loss(valid): 0.419	accuracy(valid): 0.846	12.959sec
+epoch: 17	loss(train): 0.072	accuracy(train): 0.997	loss(valid): 0.417	accuracy(valid): 0.851	13.501sec
+epoch: 18	loss(train): 0.067	accuracy(train): 0.997	loss(valid): 0.419	accuracy(valid): 0.847	13.103sec
+epoch: 19	loss(train): 0.063	accuracy(train): 0.998	loss(valid): 0.412	accuracy(valid): 0.850	13.004sec
+epoch: 20	loss(train): 0.059	accuracy(train): 0.998	loss(valid): 0.413	accuracy(valid): 0.850	13.660sec
+epoch: 21	loss(train): 0.057	accuracy(train): 0.998	loss(valid): 0.409	accuracy(valid): 0.850	12.908sec
+epoch: 22	loss(train): 0.055	accuracy(train): 0.998	loss(valid): 0.409	accuracy(valid): 0.851	13.139sec
+epoch: 23	loss(train): 0.053	accuracy(train): 0.998	loss(valid): 0.410	accuracy(valid): 0.851	12.898sec
+epoch: 24	loss(train): 0.052	accuracy(train): 0.998	loss(valid): 0.409	accuracy(valid): 0.849	12.866sec
+epoch: 25	loss(train): 0.051	accuracy(train): 0.998	loss(valid): 0.408	accuracy(valid): 0.850	13.022sec
+epoch: 26	loss(train): 0.051	accuracy(train): 0.998	loss(valid): 0.408	accuracy(valid): 0.852	13.297sec
+epoch: 27	loss(train): 0.050	accuracy(train): 0.998	loss(valid): 0.408	accuracy(valid): 0.851	12.892sec
+epoch: 28	loss(train): 0.050	accuracy(train): 0.998	loss(valid): 0.408	accuracy(valid): 0.851	13.207sec
+epoch: 29	loss(train): 0.050	accuracy(train): 0.998	loss(valid): 0.408	accuracy(valid): 0.851	13.442sec
+Best trial:
+  Value: 0.408
+  Params: 
+    out_channels:100.0
+    drop_rate:0.2
+    learning_rate:0.016755161323081177
+    momentum:0.8
+    batch_size:48.0
+textCNN(
+  (emb): Embedding(9467, 300, padding_idx=9466)
+  (convs): ModuleList(
+    (0): Conv2d(1, 100, kernel_size=(2, 300), stride=(1, 1))
+    (1): Conv2d(1, 100, kernel_size=(3, 300), stride=(1, 1), padding=(1, 0))
+    (2): Conv2d(1, 100, kernel_size=(4, 300), stride=(1, 1), padding=(2, 0))
+  )
+  (drop): Dropout(p=0.2, inplace=False)
+  (fc): Linear(in_features=300, out_features=4, bias=True)
+)
+epoch: 1	loss(train): 1.000	accuracy(train): 0.651	loss(valid): 1.003	accuracy(valid): 0.656	13.247sec
+epoch: 2	loss(train): 0.804	accuracy(train): 0.724	loss(valid): 0.846	accuracy(valid): 0.698	12.885sec
+epoch: 3	loss(train): 0.671	accuracy(train): 0.765	loss(valid): 0.741	accuracy(valid): 0.733	13.156sec
+epoch: 4	loss(train): 0.559	accuracy(train): 0.803	loss(valid): 0.672	accuracy(valid): 0.755	13.409sec
+epoch: 5	loss(train): 0.464	accuracy(train): 0.845	loss(valid): 0.617	accuracy(valid): 0.773	13.173sec
+epoch: 6	loss(train): 0.385	accuracy(train): 0.875	loss(valid): 0.565	accuracy(valid): 0.793	13.324sec
+epoch: 7	loss(train): 0.319	accuracy(train): 0.902	loss(valid): 0.527	accuracy(valid): 0.809	12.946sec
+epoch: 8	loss(train): 0.266	accuracy(train): 0.926	loss(valid): 0.496	accuracy(valid): 0.823	13.142sec
+epoch: 9	loss(train): 0.222	accuracy(train): 0.947	loss(valid): 0.486	accuracy(valid): 0.827	13.139sec
+epoch: 10	loss(train): 0.186	accuracy(train): 0.962	loss(valid): 0.466	accuracy(valid): 0.829	12.865sec
+epoch: 11	loss(train): 0.163	accuracy(train): 0.977	loss(valid): 0.458	accuracy(valid): 0.840	13.126sec
+epoch: 12	loss(train): 0.134	accuracy(train): 0.986	loss(valid): 0.446	accuracy(valid): 0.836	13.714sec
+epoch: 13	loss(train): 0.117	accuracy(train): 0.991	loss(valid): 0.442	accuracy(valid): 0.840	13.245sec
+epoch: 14	loss(train): 0.103	accuracy(train): 0.994	loss(valid): 0.430	accuracy(valid): 0.847	13.141sec
+epoch: 15	loss(train): 0.094	accuracy(train): 0.994	loss(valid): 0.423	accuracy(valid): 0.844	13.136sec
+epoch: 16	loss(train): 0.083	accuracy(train): 0.996	loss(valid): 0.419	accuracy(valid): 0.847	12.888sec
+epoch: 17	loss(train): 0.079	accuracy(train): 0.995	loss(valid): 0.433	accuracy(valid): 0.836	12.978sec
+epoch: 18	loss(train): 0.071	accuracy(train): 0.997	loss(valid): 0.417	accuracy(valid): 0.843	12.886sec
+epoch: 19	loss(train): 0.067	accuracy(train): 0.998	loss(valid): 0.414	accuracy(valid): 0.846	13.339sec
+epoch: 20	loss(train): 0.063	accuracy(train): 0.998	loss(valid): 0.415	accuracy(valid): 0.845	12.864sec
+epoch: 21	loss(train): 0.060	accuracy(train): 0.998	loss(valid): 0.414	accuracy(valid): 0.846	12.925sec
+epoch: 22	loss(train): 0.058	accuracy(train): 0.998	loss(valid): 0.413	accuracy(valid): 0.846	13.257sec
+epoch: 23	loss(train): 0.056	accuracy(train): 0.998	loss(valid): 0.413	accuracy(valid): 0.844	13.078sec
+epoch: 24	loss(train): 0.055	accuracy(train): 0.998	loss(valid): 0.412	accuracy(valid): 0.844	12.960sec
+epoch: 25	loss(train): 0.054	accuracy(train): 0.998	loss(valid): 0.414	accuracy(valid): 0.843	13.231sec
+epoch: 26	loss(train): 0.053	accuracy(train): 0.999	loss(valid): 0.411	accuracy(valid): 0.845	12.997sec
+epoch: 27	loss(train): 0.053	accuracy(train): 0.999	loss(valid): 0.411	accuracy(valid): 0.844	12.972sec
+epoch: 28	loss(train): 0.053	accuracy(train): 0.999	loss(valid): 0.411	accuracy(valid): 0.844	13.166sec
+epoch: 29	loss(train): 0.053	accuracy(train): 0.999	loss(valid): 0.411	accuracy(valid): 0.844	13.033sec
+正解率（学習データ）：0.999
+正解率（評価データ）：0.834

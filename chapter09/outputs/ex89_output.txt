@@ -1,0 +1,12 @@
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+ids: tensor([  101,  4584, 11538,  1005,  2379,  3335,  1005,  2090,  7397,  7608,
+         6892,  4755, 16459,  2111,  1012,  1012,  1012,   102,     0,     0])
+mask: tensor([1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0])
+labels: tensor([1., 0., 0., 0.])
+epoch: 1	loss(train): 0.084	accuracy(train): 0.952	loss(valid): 0.100	accuracy(valid): 0.939	71.209sec
+epoch: 2	loss(train): 0.045	accuracy(train): 0.977	loss(valid): 0.082	accuracy(valid): 0.946	70.185sec
+epoch: 3	loss(train): 0.026	accuracy(train): 0.988	loss(valid): 0.088	accuracy(valid): 0.942	70.912sec
+epoch: 4	loss(train): 0.018	accuracy(train): 0.992	loss(valid): 0.090	accuracy(valid): 0.951	70.792sec
+正解率（評価データ）：0.944

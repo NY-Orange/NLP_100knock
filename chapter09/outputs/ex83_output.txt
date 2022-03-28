@@ -1,0 +1,12 @@
+epoch: 1	loss(train): 1.168	accuracy(train): 0.489	loss(valid): 1.202	accuracy(valid): 0.484	12.958sec
+epoch: 2	loss(train): 1.109	accuracy(train): 0.555	loss(valid): 1.159	accuracy(valid): 0.540	13.178sec
+epoch: 3	loss(train): 1.025	accuracy(train): 0.613	loss(valid): 1.059	accuracy(valid): 0.599	12.954sec
+epoch: 4	loss(train): 1.084	accuracy(train): 0.552	loss(valid): 1.115	accuracy(valid): 0.547	13.331sec
+epoch: 5	loss(train): 0.984	accuracy(train): 0.651	loss(valid): 1.011	accuracy(valid): 0.651	13.171sec
+epoch: 6	loss(train): 0.993	accuracy(train): 0.643	loss(valid): 1.034	accuracy(valid): 0.622	13.165sec
+epoch: 7	loss(train): 0.995	accuracy(train): 0.640	loss(valid): 1.050	accuracy(valid): 0.613	12.981sec
+epoch: 8	loss(train): 0.954	accuracy(train): 0.665	loss(valid): 0.970	accuracy(valid): 0.668	12.985sec
+epoch: 9	loss(train): 0.928	accuracy(train): 0.681	loss(valid): 0.946	accuracy(valid): 0.680	12.989sec
+epoch: 10	loss(train): 0.919	accuracy(train): 0.685	loss(valid): 0.936	accuracy(valid): 0.678	13.176sec
+正解率（学習データ）：0.685
+正解率（評価データ）：0.660

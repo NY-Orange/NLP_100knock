@@ -1,0 +1,15 @@
+len(dataset_train) の出力：10684
+dataset_train[index] の出力：
+inputs: tensor([ 280,   61, 1596,  116, 1727,  949,   26, 2647,  113,   20,  179,  341,
+           2, 1088])
+labels: 2
+tensor([[0.3644, 0.3636, 0.0962, 0.1757]], grad_fn=<SoftmaxBackward0>)
+tensor([[0.2252, 0.1367, 0.4288, 0.2092]], grad_fn=<SoftmaxBackward0>)
+tensor([[0.2792, 0.3074, 0.1621, 0.2512]], grad_fn=<SoftmaxBackward0>)
+tensor([[0.2852, 0.3400, 0.2442, 0.1305]], grad_fn=<SoftmaxBackward0>)
+tensor([[0.2562, 0.3853, 0.2325, 0.1259]], grad_fn=<SoftmaxBackward0>)
+tensor([[0.1551, 0.2100, 0.3690, 0.2659]], grad_fn=<SoftmaxBackward0>)
+tensor([[0.2313, 0.3120, 0.2138, 0.2428]], grad_fn=<SoftmaxBackward0>)
+tensor([[0.1401, 0.2935, 0.1492, 0.4172]], grad_fn=<SoftmaxBackward0>)
+tensor([[0.3582, 0.1789, 0.2480, 0.2149]], grad_fn=<SoftmaxBackward0>)
+tensor([[0.2285, 0.3401, 0.2760, 0.1554]], grad_fn=<SoftmaxBackward0>)
