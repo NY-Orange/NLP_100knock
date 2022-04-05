@@ -1,0 +1,2 @@
+Namespace(sys='./outputs/ex94_outputs/ex94_output_beam50.en', ref='./datasets/kftt-data-1.0/data/tok/kyoto-test.en', order=4, ignore_case=False, sacrebleu=False, sentence_bleu=False)
+BLEU4 = 13.95, 48.2/21.0/11.4/6.8 (BP=0.832, ratio=0.845, syslen=22577, reflen=26734)
