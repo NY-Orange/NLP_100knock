@@ -1,4 +1,5 @@
 ファイルの実行順序
+※ CUDA_VISIBLE_DEVICES=0 を fairseq-train の前に書くことで、利用するGPUの番号を指定できる。
 
 例）ex95
 
