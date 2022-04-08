@@ -9,7 +9,7 @@ kftt_data_path = "./datasets/kftt-data-1.0/data/tok"
 # kyoto-dev.en  kyoto-dev.ja  kyoto-test.en  kyoto-test.ja  kyoto-train.en  kyoto-train.ja  kyoto-tune.en  kyoto-tune.ja
 
 # tok の中
-# train.cln は単語数 0 の文や非常に長い（40単語以上）の文を覗いたデータ
+# train.cln は単語数 0 の文や非常に長い（40単語以上）の文を除いたデータ
 # kyoto-dev.en  kyoto-dev.ja  kyoto-test.en  kyoto-test.ja  kyoto-train.cln.en  kyoto-train.cln.ja  kyoto-train.en  kyoto-train.ja  kyoto-tune.en  kyoto-tune.ja
 
 # 今回はtok/kyoto-dev.en  kyoto-dev.ja  kyoto-test.en  kyoto-test.ja  kyoto-train.cln.en  kyoto-train.cln.ja を利用する。
