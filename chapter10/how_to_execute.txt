@@ -1,0 +1,45 @@
+CUDA_VISIBLE_DEVICES=0 のように fairseq-train の前に書くことで、利用するGPUの番号を指定できる。
+fairseq-generate は前処理されたテキストを翻訳する、fairseq-interactive は前処理されていないテキストを翻訳する際に利用。
+実行の際、ファイルのパス等は適宜変更する必要がある。
+
+ファイルの実行順序
+
+例）ex95
+
+ex95_sentencepiece.py
+
+    ↓
+
+ex95_preprocess.sh
+
+    ↓
+
+ex95_train.sh
+
+    ↓
+
+ex95_translation.sh
+
+    ↓
+
+ex95_sp_decoder.py
+
+    ↓
+
+ex95_BLEU_SCORE.sh
+
+    ↓
+
+ex95_beam_search.sh
+
+    ↓
+
+ex95_sp_decoder_beams.py
+
+    ↓
+
+ex95_BLEU_SCORES.sh
+
+    ↓
+
+ex95_plots_BLEU_SCORES.py
